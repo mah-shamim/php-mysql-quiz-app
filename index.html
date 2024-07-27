@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Question Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question-container {
+            margin: 20px;
+        }
+        .options-container {
+            margin: 20px 0;
+        }
+        .option {
+            margin: 10px 0;
+        }
+        .result-container {
+            margin: 20px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-container">
+        <h1 id="question"></h1>
+        <div class="options-container" id="options-container"></div>
+        <button id="submit-btn">Submit</button>
+    </div>
+    <div class="result-container" id="result-container">
+        <h2>Result</h2>
+        <p id="result"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
